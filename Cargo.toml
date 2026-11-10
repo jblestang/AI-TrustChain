@@ -1,0 +1,13 @@
+[package]
+name = "ai-trustchain"
+version = "0.1.0"
+edition = "2021"
+description = "Out-of-Band IPS Flow Integrity Verification Engine for Multi-PDU TCP/UDP Streams"
+
+[dependencies]
+blake3 = "1.5"
+chacha20poly1305 = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3"
+thiserror = "1.0"
+zeroize = { version = "1.8", features = ["derive"] }
